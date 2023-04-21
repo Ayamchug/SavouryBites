@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "../actions/cartAction";
 
 const Pizza = ({ pizza }) => {
-  const [varient, setVarient] = useState("small");
+  const [varient, setVarient] = useState("Small");
   const [quantity, setQuantity] = useState(1);
   const [show, setShow] = useState(false);
 
